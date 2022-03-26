@@ -30,7 +30,7 @@
   },
   "require-dev": {
     "composer/composer": ">=2.0",
-    "swoole/ide-helper": ">=4.6",
+    "swoole/ide-helper": ">=4.6"
   }
   "autoload": {
     "psr-4": {
