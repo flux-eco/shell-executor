@@ -4,7 +4,7 @@ namespace FluxEco\ShellExecutor\Adapters\Shell;
 
 use FluxEco\ShellExecutor\Core\{Ports};
 
-class ShellExecutionResult //implements Ports\Shell\ShellExecutionResult
+class ShellExecutionResult implements Ports\Shell\ShellExecutionResult
 {
     private int $code;
     private int $signal;

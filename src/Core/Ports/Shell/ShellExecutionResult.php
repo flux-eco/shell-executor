@@ -8,5 +8,5 @@ interface ShellExecutionResult
 
     public function getSignal() : int;
 
-    public function getOutput() : string;
+    public function getOutput() : ?string;
 }
