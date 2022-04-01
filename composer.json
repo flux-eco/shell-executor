@@ -1,12 +1,12 @@
 {
   "name": "flux-eco/shell-executor",
-  "description": "Component for flux-capacitor apps developed by fluxlabs",
-  "version": "0.0.1",
+  "description": "Component for executing shell commands",
+  "version": "0.0.2",
   "type": "flux-app",
   "keywords": [
-    "flux-ecosystem",
-    "flux-capacitor",
-    "fluxlabs ag"
+    "flux-eco",
+    "shell-executor",
+    "fluxlabs"
   ],
   "homepage": "https://fluxlabs.ch",
   "license": "GPL-3.0-only",
@@ -25,11 +25,9 @@
     "php": ">=7.4",
     "ext-curl": "*",
     "ext-json": "*",
-    "ext-yaml": "*",
-    "composer-runtime-api": ">=2.1"
+    "ext-yaml": "*"
   },
   "require-dev": {
-    "composer/composer": ">=2.0",
     "swoole/ide-helper": ">=4.6"
   },
   "autoload": {
