@@ -1,6 +1,6 @@
 # flux-eco/shell-executor
 
-This component support executing shell commands. 
+Component for executing shell commands. 
 In the future, thanks to swoole, co/routine it will also support parallelisation.
 
 ## Contributing :purple_heart:
